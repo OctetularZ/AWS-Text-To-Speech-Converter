@@ -2,7 +2,7 @@
 
 ![Demo Screenshot](./demo-screenshot.gif)
 
-**Technologies:** `HTML`, `CSS`, `JavaScript`, **Python**, AWS Lambda, Amazon Polly, Amazon S3, API Gateway
+**Technologies:** `HTML`, `CSS`, `JavaScript`, `Python`, `AWS Lambda`, `Amazon Polly`, `Amazon S3`, `API Gateway`
 
 ---
 
@@ -35,9 +35,7 @@ This is a serverless text-to-speech web application that converts user input tex
 
 - Add more voice options and languages  
 - Include a loading indicator during speech synthesis  
-- Improve error handling and validation  
 - Support for longer texts and streaming audio playback  
-- Deploy frontend to AWS S3 + CloudFront for a fully serverless demo site  
 - Add user authentication to save favorite voices or texts  
 
 ---
@@ -47,9 +45,9 @@ This is a serverless text-to-speech web application that converts user input tex
 | Layer         | Technology                          |
 |---------------|-----------------------------------|
 | 🎨 Frontend    | `HTML`, `CSS`, `JavaScript`       |
-| 🧠 Backend     | `Python`, AWS Lambda, `boto3`     |
-| ☁️ Cloud      | Amazon Polly, Amazon S3, API Gateway |
-| 🔐 Security    | IAM Roles, CORS Configuration     |
+| 🧠 Backend     | `Python`, `AWS Lambda`, `boto3`     |
+| ☁️ Cloud      | `Amazon Polly`, `Amazon S3`, `API Gateway` |
+| 🔐 Security    | `IAM Roles`, `CORS Configuration`     |
 
 ---
 
@@ -81,4 +79,4 @@ Feel free to fork, improve, and deploy your own version!
 
 ---
 
-Thanks for checking out the project! Feel free to ask if you want help deploying or extending the demo.
+Thanks for checking out the project!
