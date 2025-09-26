@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Text to Speech Converter</title>
+<link rel="stylesheet" href="/src/index.css" />
+</head>
+<body>
+
+<div class="container">
+  <h1>AWS Text-to-Speech Converter</h1>
+
+  <label for="text-input">Enter Text:</label>
+  <textarea id="text-input" placeholder="Type your text here..."></textarea>
+
+  <label for="voice-select">Select Voice:</label>
+  <select id="voice-select">
+    <option value="Joanna">Joanna (Female, US English)</option>
+    <option value="Matthew">Matthew (Male, US English)</option>
+    <option value="Ivy">Ivy (Female, US English)</option>
+    <option value="Brian">Brian (Male, British English)</option>
+  </select>
+
+  <button id="convert-btn">Convert to Speech</button>
+
+  <div class="error-msg" id="error-msg"></div>
+
+  <div class="audio-player" id="audio-player">
+    <audio id="audio" controls></audio>
+    <br />
+    <a id="download-link" class="download-link" download="speech.mp3">Download Audio</a>
+  </div>
+</div>
+
+<footer>Made by Taiwo.O using AWS Polly & Lambda 🌟</footer>
+<script src="/src/index.js"></script>
+</body>
+</html>

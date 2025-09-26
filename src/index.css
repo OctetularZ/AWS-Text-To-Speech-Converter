@@ -1,0 +1,125 @@
+/* Reset basic styles */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background: white;
+  padding: 2.5rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  max-width: 480px;
+  width: 90%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;  /* stack vertically */
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 2rem 0;
+  background: #f5f7fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #222;
+  font-weight: 700;
+}
+label {
+  font-weight: 600;
+  color: #555;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+textarea, select {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+  font-family: inherit;
+}
+
+textarea:focus, select:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+textarea {
+  min-height: 120px;
+}
+button {
+  background: #4a90e2;
+  color: white;
+  border: none;
+  padding: 0.85rem 1.6rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+button:disabled {
+  background: #a2c1f9;
+  cursor: not-allowed;
+}
+button:hover:not(:disabled) {
+  background: #357abd;
+}
+.audio-player {
+  margin-top: 2rem;
+  display: none;
+  text-align: center;
+}
+
+#text-input {
+  margin-bottom: 20px;
+}
+
+audio {
+  width: 100%;
+  outline: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.download-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  color: #4a90e2;
+  font-weight: 600;
+  text-decoration: none;
+}
+.download-link:hover {
+  text-decoration: underline;
+}
+.error-msg {
+  color: #d9534f;
+  font-weight: 600;
+  margin-top: 1rem;
+  text-align: center;
+  min-height: 1.4em;
+}
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #888;
+  width: 100%;
+}
